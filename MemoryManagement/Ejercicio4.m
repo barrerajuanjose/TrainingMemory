@@ -10,10 +10,14 @@
 #import <UIKit/UIKit.h>
 @interface Ejercicio4()
 @property (nonatomic) NSInteger myInteger;
+@property (copy) void (^block)(void);
 
 @end
 @implementation Ejercicio4
 
+-(void) doSomething{
+    NSLog(@"Something");
+}
 
 -(void) ejercicio4B{
     
@@ -36,14 +40,9 @@
 -(void) ejercicio4C{
     
     
-
-    [UIView animateWithDuration:5 animations:^{
-        
-        Ejercicio4 * ejercicio = self;
-        [ejercicio respondsToSelector:@selector(description)];
-        
-    } completion:nil];
-    
+    self.block = ^{
+        [self doSomething];
+    };
     
 }
 @end
