@@ -10,10 +10,7 @@
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
-//  @autoreleasepool {
-    NSAutoreleasePool* autoreleasePool = [[NSAutoreleasePool alloc] init];
-    int returnValue = UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    [autoreleasePool release];
-    return returnValue;
-//    }
+  @autoreleasepool {
+   return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+   }
 }

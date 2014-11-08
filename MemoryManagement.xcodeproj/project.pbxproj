@@ -12,7 +12,10 @@
 		8CD837A61A0D5F8F007EDE94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD837A51A0D5F8F007EDE94 /* ViewController.m */; };
 		8CD837AB1A0D5F8F007EDE94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD837AA1A0D5F8F007EDE94 /* Images.xcassets */; };
 		8CD837BA1A0D5F90007EDE94 /* MemoryManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD837B91A0D5F90007EDE94 /* MemoryManagementTests.m */; };
-		8CD837C81A0D6550007EDE94 /* AppCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD837C71A0D6550007EDE94 /* AppCoreData.m */; };
+		CDB642931A0EAB5100467E51 /* Ejercicio1.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB642921A0EAB5100467E51 /* Ejercicio1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDB642961A0EB38E00467E51 /* Ejercicio3.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB642951A0EB38E00467E51 /* Ejercicio3.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDB642991A0EBC9900467E51 /* Ejercicio4.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB642981A0EBC9900467E51 /* Ejercicio4.m */; };
+		CDB6429C1A0ECA5A00467E51 /* Ejercicio2.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6429B1A0ECA5A00467E51 /* Ejercicio2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,14 @@
 		8CD837B31A0D5F90007EDE94 /* MemoryManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD837B81A0D5F90007EDE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CD837B91A0D5F90007EDE94 /* MemoryManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryManagementTests.m; sourceTree = "<group>"; };
-		8CD837C61A0D6550007EDE94 /* AppCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppCoreData.h; path = ../MemoryManagement/AppCoreData.h; sourceTree = "<group>"; };
-		8CD837C71A0D6550007EDE94 /* AppCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppCoreData.m; path = ../MemoryManagement/AppCoreData.m; sourceTree = "<group>"; };
+		CDB642911A0EAB5100467E51 /* Ejercicio1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ejercicio1.h; sourceTree = "<group>"; };
+		CDB642921A0EAB5100467E51 /* Ejercicio1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ejercicio1.m; sourceTree = "<group>"; };
+		CDB642941A0EB38E00467E51 /* Ejercicio3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ejercicio3.h; sourceTree = "<group>"; };
+		CDB642951A0EB38E00467E51 /* Ejercicio3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ejercicio3.m; sourceTree = "<group>"; };
+		CDB642971A0EBC9900467E51 /* Ejercicio4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ejercicio4.h; sourceTree = "<group>"; };
+		CDB642981A0EBC9900467E51 /* Ejercicio4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ejercicio4.m; sourceTree = "<group>"; };
+		CDB6429A1A0ECA5A00467E51 /* Ejercicio2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ejercicio2.h; sourceTree = "<group>"; };
+		CDB6429B1A0ECA5A00467E51 /* Ejercicio2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ejercicio2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,14 @@
 				8CD837A51A0D5F8F007EDE94 /* ViewController.m */,
 				8CD837AA1A0D5F8F007EDE94 /* Images.xcassets */,
 				8CD8379D1A0D5F8F007EDE94 /* Supporting Files */,
+				CDB642911A0EAB5100467E51 /* Ejercicio1.h */,
+				CDB642921A0EAB5100467E51 /* Ejercicio1.m */,
+				CDB6429A1A0ECA5A00467E51 /* Ejercicio2.h */,
+				CDB6429B1A0ECA5A00467E51 /* Ejercicio2.m */,
+				CDB642941A0EB38E00467E51 /* Ejercicio3.h */,
+				CDB642951A0EB38E00467E51 /* Ejercicio3.m */,
+				CDB642971A0EBC9900467E51 /* Ejercicio4.h */,
+				CDB642981A0EBC9900467E51 /* Ejercicio4.m */,
 			);
 			path = MemoryManagement;
 			sourceTree = "<group>";
@@ -111,8 +128,6 @@
 		8CD837B71A0D5F90007EDE94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8CD837C61A0D6550007EDE94 /* AppCoreData.h */,
-				8CD837C71A0D6550007EDE94 /* AppCoreData.m */,
 				8CD837B81A0D5F90007EDE94 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -216,9 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD837C81A0D6550007EDE94 /* AppCoreData.m in Sources */,
 				8CD837A61A0D5F8F007EDE94 /* ViewController.m in Sources */,
+				CDB6429C1A0ECA5A00467E51 /* Ejercicio2.m in Sources */,
+				CDB642961A0EB38E00467E51 /* Ejercicio3.m in Sources */,
+				CDB642991A0EBC9900467E51 /* Ejercicio4.m in Sources */,
 				8CD837A31A0D5F8F007EDE94 /* AppDelegate.m in Sources */,
+				CDB642931A0EAB5100467E51 /* Ejercicio1.m in Sources */,
 				8CD837A01A0D5F8F007EDE94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +340,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = MemoryManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -333,7 +360,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = MemoryManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,6 +429,7 @@
 				8CD837BF1A0D5F90007EDE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CD837C01A0D5F90007EDE94 /* Build configuration list for PBXNativeTarget "MemoryManagementTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +438,7 @@
 				8CD837C21A0D5F90007EDE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
