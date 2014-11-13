@@ -32,7 +32,7 @@
     
    // [self.ejercicio2 deleteElementVer1:@2];
   //  [self.ejercicio2 deleteElementVer2:@2];
-  //  [self.ejercicio2 deleteElementVer3:@2];
+   // [self.ejercicio2 deleteElementVer3:@2];
   //  [self.ejercicio2 deleteElementVer4:@2];
 
    // [self.ejercicio3 ejercicio3A];

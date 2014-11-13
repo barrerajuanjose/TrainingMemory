@@ -12,8 +12,8 @@
 		8CD837A61A0D5F8F007EDE94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD837A51A0D5F8F007EDE94 /* ViewController.m */; };
 		8CD837AB1A0D5F8F007EDE94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD837AA1A0D5F8F007EDE94 /* Images.xcassets */; };
 		8CD837BA1A0D5F90007EDE94 /* MemoryManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD837B91A0D5F90007EDE94 /* MemoryManagementTests.m */; };
-		CDB642931A0EAB5100467E51 /* Ejercicio1.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB642921A0EAB5100467E51 /* Ejercicio1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CDB642961A0EB38E00467E51 /* Ejercicio3.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB642951A0EB38E00467E51 /* Ejercicio3.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDB642931A0EAB5100467E51 /* Ejercicio1.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB642921A0EAB5100467E51 /* Ejercicio1.m */; };
+		CDB642961A0EB38E00467E51 /* Ejercicio3.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB642951A0EB38E00467E51 /* Ejercicio3.m */; };
 		CDB642991A0EBC9900467E51 /* Ejercicio4.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB642981A0EBC9900467E51 /* Ejercicio4.m */; };
 		CDB6429C1A0ECA5A00467E51 /* Ejercicio2.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6429B1A0ECA5A00467E51 /* Ejercicio2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
@@ -294,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

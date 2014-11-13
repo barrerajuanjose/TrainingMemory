@@ -32,7 +32,6 @@
 
 
 -(void) createArray{
-    
     self.myArray = [NSMutableArray array];
     [self.myArray addObject:@1];
     [self.myArray addObject:@2];
@@ -40,14 +39,13 @@
     [self.myArray addObject:@4];
     [self.myArray addObject:@5];
     [self.myArray addObject:@6];
-    
 }
+
 -(void) print{
     NSLog(@"%@",self.myArray);
     
     [self createArray];
 }
-
 
 -(void) deleteElementVer1:(NSNumber*) anElement{
     
@@ -65,7 +63,7 @@
 
 -(void) deleteElementVer2:(NSNumber*) anElement{
     
-    for (NSString * myArrayElement in self.myArray){
+    for (NSString * myArrayElement in self.myArray){//NSString?
         if ([anElement isEqualToNumber:anElement]){
             [self.myArray removeObject:myArrayElement];
         }
@@ -86,6 +84,7 @@
     }
     [self print];
 }
+
 
 -(void) deleteElementVer4:(NSNumber*) anElement{
     

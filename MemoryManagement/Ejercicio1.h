@@ -16,7 +16,7 @@
 
 @interface Ejercicio1 : NSObject
 
-@property (nonatomic,retain) NSNumber * number;
-@property (nonatomic,assign) id<Ejercicio1Delegate> delegate;
+@property (nonatomic, strong) NSNumber * aNumber;
+@property (nonatomic, weak) id<Ejercicio1Delegate> delegate;
 
 @end

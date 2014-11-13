@@ -20,9 +20,8 @@
 }
 
 -(void) ejercicio4B{
-    
-    
-    
+
+    // le falta el __block
     int anInteger = 42;
     
     void (^testBlock)(void) = ^{
@@ -38,10 +37,11 @@
 }
 
 -(void) ejercicio4C{
-    
+    //Armar weakSelf
+    __weak typeof(self) weakSelf = self;
     
     self.block = ^{
-        [self doSomething];
+        [weakSelf doSomething];
     };
     
 }

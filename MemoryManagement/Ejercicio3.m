@@ -8,29 +8,25 @@
 
 #import "Ejercicio3.h"
 
-@interface Ejercicio3(){
+@interface Ejercicio3()
 
-    NSMutableArray* _arrayEjercicio;
-
-}
-
+@property (nonatomic, strong) NSMutableArray * arrayEjercicio;
 
 @end
+
 @implementation Ejercicio3
 - (void)ejercicio3A {
-    _arrayEjercicio = [[NSMutableArray alloc] init];
-    [_arrayEjercicio addObject:@"Pepito"];
-    [_arrayEjercicio release];
-    NSLog(@"%@", [_arrayEjercicio objectAtIndex:0]);
+    self.arrayEjercicio = [[NSMutableArray alloc] init];
+    [self.arrayEjercicio addObject:@"Pepito"];
+    NSLog(@"%@", [self.arrayEjercicio objectAtIndex:0]);
 }
 
 
 
 - (void)ejercicio3B{
-    _arrayEjercicio = [NSMutableArray array];
-    [_arrayEjercicio addObject:@"Pepito"];
-    [_arrayEjercicio release];
-    NSLog(@"%@", [_arrayEjercicio objectAtIndex:0]);
+    self.arrayEjercicio = [NSMutableArray array];
+    [self.arrayEjercicio addObject:@"Pepito"];
+    NSLog(@"%@", [self.arrayEjercicio objectAtIndex:0]);
 }
 
 -(void) ejercicio3C{
@@ -38,27 +34,27 @@
 }
 
 - (void)ejercicio3D {
-    _arrayEjercicio = [[NSMutableArray array] retain];
-    [_arrayEjercicio addObject:@"Pepito"];
-    [_arrayEjercicio release];
-    NSLog(@"%@", [_arrayEjercicio objectAtIndex:0]);
+    self.arrayEjercicio = [NSMutableArray array];
+    [self.arrayEjercicio addObject:@"Pepito"];
+    NSLog(@"%@", [self.arrayEjercicio objectAtIndex:0]);
+    //Falta hacer otro release
 }
 
 - (void)ejercicio3E {
-    _arrayEjercicio = [[NSMutableArray alloc] init];
-    [_arrayEjercicio addObject:@"Pepito"];
+    self.arrayEjercicio = [[NSMutableArray alloc] init];
+    [self.arrayEjercicio addObject:@"Pepito"];
     NSLog(@"%@", [_arrayEjercicio objectAtIndex:0]);
 }
 
 - (void)ejercicio3F{
-    _arrayEjercicio = [NSMutableArray array];
-    [_arrayEjercicio addObject:@"Pepito"];
-    NSLog(@"%@", [_arrayEjercicio objectAtIndex:0]);
+    self.arrayEjercicio = [NSMutableArray array];
+    [self.arrayEjercicio addObject:@"Pepito"];
+    NSLog(@"%@", [self.arrayEjercicio objectAtIndex:0]);
 }
 
 -(NSMutableArray*) ejercicio3G{
     
-    return [_arrayEjercicio retain];
+    return self.arrayEjercicio;
 }
 
 -(NSMutableArray*) ejercicio3H{
@@ -68,11 +64,10 @@
 }
 
 -(NSMutableArray*) ejercicio3I{
-    return [_arrayEjercicio autorelease];
+    return _arrayEjercicio;
 }
 -(NSMutableArray*) ejercicio3J{
     NSMutableArray * arr = [NSMutableArray array];
-    [arr autorelease];
     
     return arr;
 }
